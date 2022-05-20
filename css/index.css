@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@0,300;1,100&display=swap');
+@import url("Roboto_Regular/stylesheet.css");
+
+@media   {
+	
+    html {
+        font-size: 17px;
+    }
+    .info {
+        margin: 25px 15px 30px 35px;
+    }
+    .resume {
+        margin: 0;
+        display: grid;
+        grid-template-columns: 38% 1% 61%;
+    }
+    .foto {
+        background: url(../images/photo.jpg) no-repeat center;
+        background-size: auto 200px;
+        width: 200px;
+        height: 200px;
+    }
+    .profession {margin-top: 15px;}
+    .name {margin-top: 25px;}
+    .contacts {margin-top: 15px;}
+    .contacts span {padding-right: 15px;}
+    .title {margin: 30px 0 10px;}
+    .skill {margin-bottom: 10px;}
+    .scale {height: 8px;}
+    .middle-line {background-color: #c2c2c0}
+    .right-side {margin: 30px 35px 30px 15px;}
+    .title.about-title {margin-top: 15}
+    .sub-title {margin: 20px 0 0px;}
+    .sub-title-sub-title {margin-bottom: 15px;}
+    .qualities-text {padding-bottom: 15px}
+}
+
+html {
+    background-color: #2AE1D3;
+}
+.body {
+    font-family: "Roboto Regular", Helvetica, Arial, sans-serif;
+    font-style: normal;
+}
+.resume {
+    background-color: #DBF3EB;
+}
+.foto {
+    margin: auto;
+}
+.profession {
+    font-weight: bold;
+    font-size: 1.3rem;
+    text-align: center;
+    letter-spacing: 0.15em;
+    color: var(--text-color);
+}
+.name {
+    font-family: Lobster;
+    font-weight: normal;
+    font-size: 1.8rem;
+    text-align: center;
+    letter-spacing: 0.15em;
+    color: rgba(31,62,162,1.00);
+}
+.contacts {
+    font-weight: normal;
+    font-size: 1rem;
+    letter-spacing: 0.15em;
+    color: var(--text-color);
+}
+.contacts span{
+    display: inline-block;
+    vertical-align: middle;
+}
+.contacts a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+.contacts  div {
+    font-weight: normal;
+    font-size: 0.9rem;
+    letter-spacing: 0.05em;
+    color: var(--text-color);
+}
+.title {
+    font-weight: 600;
+    font-size: 1.5rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--title-color);
+}
+.skill > span {
+    display: inline-block;
+    width: 10%;
+}
+.skill {
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    color: var(--text-color);
+}
+.scale {
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+}
+.scale.first-scale {
+    left: 25%;
+    width: 60%;
+    background: #e7e7e6;
+    transform: matrix(1, 0, 0, -1, 0, 0);
+}
+.scale.second-scale {
+    display: block;
+    background: #c2c2c0;
+    transform: matrix(1, 0, 0, -1, 0, 0);
+}
+.Python.scale.second-scale {width: 60%;}
+.JavaScript.scale.second-scale {width: 50%;}
+.HTMLCSS.scale.second-scale {width: 50%;}
+.text {
+    font-weight: normal;
+    font-size: 1rem;
+    letter-spacing: 0.05em;
+    color: var(--text-color);
+}
+.sub-title {
+    font-weight: 500;
+    font-size: 1.2rem;
+    letter-spacing: 0.05em;
+    color: var(--text-color);
+}
+.sub-title-sub-title {
+    font-weight: 500;
+    font-size: 0.9rem;
+    letter-spacing: 0.05em;
+    color: var(--sub-color);
+}
+.experience-sub-text{
+    margin-left: 2%;
+}
+.tools {
+    margin-left: 1%;
+    font-size: 0.7rem;
+}
+
+div.qualities-text, span.quality {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1rem;
+    letter-spacing: 0.05em;
+}
+.quality {
+    margin-left: 2%;
+}
